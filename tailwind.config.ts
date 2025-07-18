@@ -17,6 +17,9 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Inter', 'system-ui', 'sans-serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -31,6 +34,12 @@ export default {
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				weather: {
+					green: '#10B981',
+					blue: '#60A5FA',
+					white: '#FFFFFF',
+					gray: '#6B7280'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
